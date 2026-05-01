@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+  <title>Hospital Dashboard</title>
+  <link rel="stylesheet" href="dashbord.css">
+  <script src="login_page.js" defer></script>
+</head>
+<body>
+<div class="hamburger-menu" id="hamburger-menu">
+	<div class="ham-header">
+		<span class="ham-heading">
+		<h4>MENU!</h4>
+		</span>
+		<div class="hamburger-menu-symbol" id="menu-symbol">
+				<span class="ham-symbol"></span>
+				<span class="ham-symbol"></span>
+				<span class="ham-symbol"></span>
+		</div>	
+	</div>
+	<div class="ham-main">
+		<details name="onlyOne">
+			<summary>My profile
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">Personal Details</a>
+			<a href="#">Insurance Details</a>
+			<a href="#">Emergency Contacts</a>
+			<a href="#">Medical History</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Appointments
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">Book Appointment</a>
+			<a href="#">Reschedule Appointment</a>
+			<a href="#">Cancel Appointment</a>
+			<a href="#">Appointments History</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Payments
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">Pay Bills</a>
+			<a href="#">Payment History</a>
+			<a href="#">Insurance Claims</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Health Summary
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">BMI|Sugar Trends</a>
+			<a href="#">Doctor Notes</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Pharmacy
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">Order medicines</a>
+			<a href="#">Prescription Upload</a>
+			<a href="#">Order History</a>
+			<a href="#">Reorder Medicines</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Lab Records
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">My Lab Test Records</a>
+		</details>
+		<details name="onlyOne">
+			<summary>Support
+			<span class="chevron"></span>
+			</summary>
+			<a href="#">Contact Hospital</a>
+			<a href="#">Raise Complaint</a>
+			<a href="#">Chat Support</a>
+		</details>
+		
+	</div>
+	<div class="ham-footer">
+		<button type="button" class="signout-button">Sign out</button>
+	</div>
+</div>
+<header class="dashboard-header">
+			<div class="logo">
+				<img src="refined_img.png" alt="Curasphere Hospital Logo" title="Curasphere">
+			</div>
+			<div class="name">
+				<div class="heading">
+					<h1>CURASPHERE</h1>
+				</div>
+				<div class="caption">
+				<p>Your health, Our highest promise</p>
+				</div>
+			</div>
+			<div class="header-features">
+			<div id="display-name"></div>
+			<button type="button" aria-label="Emergency Help" class="danger">Emergency</button>
+			<div class="hamburger-menu-symbol" id="header-symbol">
+				<span class="ham-symbol"></span>
+				<span class="ham-symbol"></span>
+				<span class="ham-symbol"></span>
+				
+			</div>
+			</div>
+
+</header>
+<main class="patients-main">
+  <div class="active-medications">
+  <div class="active-medications-heading"><h3>Current Treatment Medications</h3></div>
+  <div class="active-medications-main">
+ <div class="current-medications-main">
+
+  <table class="class-table">
+    <thead>
+      <tr>
+        <th>Tablet / Medicine</th>
+        <th>Dosage</th>
+        <th>Time</th>
+        <th>Prescribed By</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Paracetamol 650mg</td>
+        <td>1 Tablet</td>
+        <td>Morning, Night</td>
+        <td>Dr. Ramesh Kumar</td>
+        <td>After Food</td>
+      </tr>
+
+      <tr>
+        <td>Amoxicillin 500mg</td>
+        <td>1 Capsule</td>
+        <td>After Lunch</td>
+        <td>Dr. Sneha Patel</td>
+        <td>Complete 5 Day Course</td>
+      </tr>
+
+      <tr>
+        <td>Vitamin D Supplement</td>
+        <td>1 Tablet</td>
+        <td>Morning</td>
+        <td>Dr. Arun Sharma</td>
+        <td>Weekly Once</td>
+      </tr>
+
+      <tr>
+        <td>Metformin 500mg</td>
+        <td>1 Tablet</td>
+        <td>Before Dinner</td>
+        <td>Dr. Meera Nair</td>
+        <td>Monitor Sugar Levels</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</div>
+
+  </div>
+  </div>
+  <div class="upcoming-appointments">
+  <div class="upcoming-appointments-heading"><h3>Upcoming Appointments</h3></div>
+  <div class="upcoming-appointments-main">
+
+  <table class="class-table">
+    <thead>
+      <tr>
+        <th>Doctor</th>
+        <th>Department</th>
+        <th>Date-Time</th>
+        <th>Room / Location</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Dr. Meera Nair</td>
+        <td>Cardiology</td>
+        <td>10 Feb 2026-10:30 AM</td>
+        <td>OPD - 203</td>
+        <td>Follow-up Visit</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Rahul Verma</td>
+        <td>Orthopedics</td>
+        <td>14 Feb 2026-02:00 PM</td>
+        <td>OPD - 110</td>
+        <td>X-Ray Review</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Sneha Patel</td>
+        <td>General Medicine</td>
+        <td>18 Feb 2026-09:15 AM</td>
+        <td>OPD - 015</td>
+        <td>Routine Checkup</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Arun Sharma</td>
+        <td>Endocrinology</td>
+        <td>22 Feb 2026-11:45 AM</td>
+        <td>Block B - Room 12</td>
+        <td>Diabetes Consultation</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  </div>
+  </div>
+</main>
+
+</body>
+</html>

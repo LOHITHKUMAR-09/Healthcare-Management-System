@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login...!</title>
+	<style>
+	
+	</style>
+	<link rel="stylesheet" href="login_page.css"><!--file name is changed-->
+	<script src="login_page.js" defer></script>
+</head>
+<body class="login-page-body">
+<header class="login-page-header">
+			<div class="logo">
+				<img src="refined_img.png" alt="Logo" title="Curasphere">
+			</div>
+			<div class="name">
+				<div class="heading">
+					<h1>CURASPHERE</h1>
+				</div>
+				<div class="caption">
+				<p>Your health, Our highest promise</p>
+				</div>
+			</div>
+
+</header>
+<main class="main-content">
+<div class="login-area"  id="sign-in-container">
+<form class="signin-form" id="login-page-form">
+	<div class="signin-heading" ><h4>SIGN IN!</h4><p>Sign in today, for a better tomorrow</p></div>
+	<!-- <div class="caption" style="border:2px solid black"><p>Sign in today, for a better tomorrow</p></div> -->
+	<!-- <div class="login-area" style="border:2px solid black"><p>SIGN UP!</p></div> -->
+	
+	<div class="up-container">
+		
+		<label for="username">Username:</label>
+		<input id="sign-in-username" class="username" 	type="text" placeholder="Username" >
+		<label for="password" class="pass">Password:</label>
+		<input id="sign-in-password" class="password" type="password" placeholder="password" >
+	<p id="error-msg"></p>
+	<button class="get-started"  type="submit" >Get started</button>
+	</div>
+	</form>
+	
+	<p class="text-info">--------------------or sign in with-----------------</p>
+	<div class="sign-in-icons">
+		<div class="sign-in-buttons" >
+			<button type="button"><img width=100% height=100% src="" alt="g"></button>
+		</div>
+		<div class="sign-in-buttons">
+			<button type="button"><img width=100% height=100% src="" alt="f"></button>
+		</div>
+		<div class="sign-in-buttons">
+			<button type="button"><img width=100% height=100% src="" alt="a"></button>
+		</div>
+		
+	</div>
+	<div class="sign-up-in-signin-window">
+		<div class="sign-up">
+			<p>New User?</p>
+			<button id="show-signup" type="button">sign up</button>
+		</div>
+	</div>
+</div>	
+
+<div class="login-area"  id="sign-up-container">
+<form class="signin-form" id="sign-up-page-form">
+	<div class="signin-heading" ><h4>SIGN UP!</h4><p>Sign in today, for a better tomorrow</p></div>
+	<!-- <div class="caption" style="border:2px solid black"><p>Sign in today, for a better tomorrow</p></div> -->
+	<!-- <div class="login-area" style="border:2px solid black"><p>SIGN UP!</p></div> -->
+	
+	<div class="up-container">
+		
+		<label for="sign-up-username">Username:</label>
+		<input id="sign-up-username" class="signin-username" 	type="text" placeholder="username" >
+		<label for="sign-up-password" class="pass">Password:</label>
+		<input id="sign-up-password" class="signin-password" type="password" placeholder="password" >
+		<label for="sign-up-confirm-password" class="pass">Confirm-Password:</label>
+		<input id="sign-up-confirm-password" class="signin-password" type="password" placeholder="confirm-password" >
+	<p id="sign-up-error-msg"></p>
+	<button class="get-started"  type="submit" >Get started</button>
+	</div>
+	</form>
+	
+	<p class="text-info">--------------------or sign up with-----------------</p>
+	<div class="sign-in-icons">
+		<div class="sign-in-buttons" >
+			<button type="button"><img width=100% height=100% src="" alt="g"></button>
+		</div>
+		<div class="sign-in-buttons">
+			<button type="button"><img width=100% height=100% src="" alt="f"></button>
+		</div>
+		<div class="sign-in-buttons">
+			<button type="button"><img width=100% height=100% src="" alt="a"></button>
+		</div>
+		
+	</div>
+	<div class="sign-up-in-signin-window">
+		<div class="sign-up">
+			<p>Existing User?</p>
+			<button id="show-signin" type="button">sign in</button>
+		</div>
+	</div>
+</div>
+</main>	
+</body>
+</html>
